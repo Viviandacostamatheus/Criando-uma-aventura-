@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Delius&family=Lacquer&family=Mada:wght@200..900&family=Mynerve&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>A procura por uma aventura</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="">
+            <p>Você está cansado da rotina e  está afim de se aventurar</p>
+            <button class="btn-proximo" data-proximo="1">Explorar as catacumbas de Paris</button>
+            <button class="btn-proximo" data-proximo="2">Vsitar os montes Apalaches</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você precisa achar um local de entrada</p>
+            <button class="btn-proximo" data-proximo="3">Entrar ilegalmente</button>
+            <button class="btn-proximo" data-proximo="4">Adentrar em uma entrada legalizada com um guia</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/cenario-passo2-montes-apalaches.jpg" alt="montes apalaches"
+            <p>Visitar os montes Apalaches</p>
+            <button class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
+            <button class="btn-proximo" data-proximo="6">Fazer uma trilha noturna  nas florestas</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="img/cenario-passo3-entrada-catacumbas.jpg" alt="imagem entrada das catacumbas"
+            <p>Você entra por um buraco em uma estação de trem abandonada, e logo na entrada vê avisos aconselhando para que você volte para casa</p>
+            <button class="btn-proximo" data-proximo="7">Você segue em frente</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-catacumbas.jpg" alt="catacumbas"
+            <p>Sua visita ocorre do jeito esperado, porém você sai sentindo que faltou algo</p>
+            <button class="btn-proximo" data-proximo="0">Voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="img/cenario-passo5-padre.jpg" alt="padre"
+            <p>Em uma das igrejas, um padre, relutantemente, te conta de uma caverna conhecida por ser o lar de criaturas horrendas</p>
+            <button class="btn-proximo" data-proximo="8">Ir explorar</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="img/cenario-passo6-neblina.jpg" alt="floresta com neblina"
+            <p>Durante a trilha, você sente dificuldade na vista devido a neblina, mas consegue ver animais te obersando</p>
+            <button class="btn-proximo" data-proximo="9">Continuar a trilha</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="img/cenario-passo7-8-12-bifurcação.jpg" alt="bifurcação"
+            <p>Há uma bifurcação. Pela direita, você ouve ecos de água pingando, porém as setas indicam que é seguro. No caminho à esquerda, as paredes estão marcadas com enormes Xs, avisando perigo</p>
+            <button class="btn-proximo" data-proximo="10">Seguir à esquerda</button>
+            <button class="btn-proximo" data-proximo="11">Seguir à direita</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="img/cenario-passo7-8-12-bifurcação.jpg" alt="bifurcação"
+            <p>Há uma bifurcação. Pela direita, você ouve ecos de água pingando, porém as setas indicam que é seguro. No caminho à esquerda, as paredes estão marcadas com enormes Xs, avisando perigo</p>
+            <button class="btn-proximo" data-proximo="10">Seguir à esquerda</button>
+            <button class="btn-proximo" data-proximo="11">Seguir à direita</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="img/cenario-passo9-olho-branco.jpg" alt="cervo"
+            <p>Um animal de olhos brancos chega perto de você</p>
+            <button class="btn-proximo" data-proximo="12">correr e se esconder em uma caverna</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <img src="img/cenario-passo7-8-12-bifurcação.jpg" alt="bifurcação"
+            <p>Há uma bifurcação. Pela direita, você ouve ecos de água pingando, porém as setas indicam que é seguro. No caminho à esquerda, as paredes estão marcadas com enormes Xs, avisando perigo</p>
+            <button class="btn-proximo" data-proximo="10">Seguir à esquerda</button>
+            <button class="btn-proximo" data-proximo="11">Seguir à direita</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="img/cenario-passo10-escuro.jpg" alt="escuro"
+            <p>Você olha para o escuro do túnel sem fim ele lhe olha de volta. 
+                Você chega em um amplo salão, com caveiras até o teto. Você sente uma vontade aterradora de sair daqui o mais rápido possível</p>
+            <button class="btn-proximo" data-proximo="13">Você se arrisca e mergulha em uma fresta entre os ossos e o teto, a fim de achar uma saída no outro lado</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <p>Você ouve algo</p>
+            <button class="btn-proximo" data-proximo="14">Corra</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <img src="img/cenario-passo13-final.jpg" alt="final"
+            <p>Durante a travessia, sua lanterna se quebra. Ao chegar no outro lado com muito esforço, você não vê nada. Esticando os braços você alcança todas as 4 úmidas paredes. Você está preso, escolha errada</p>
+            <button class="btn-proximo" data-proximo="0">Renascer</button>
+        </div>
+        <div class="passo" id="passo-14">
+            <img src="img/cenario-passo14-pilha-de-ossosl.jpg" alt="pilha de ossos"
+            <p>Você entra em um amplo salão, com caveiras até o teto. Você quer sair daqui o mais rápido possível</p>
+            <button class="btn-proximo" data-proximo="13">Você se arrisca e mergulha em uma fresta entre os ossos e o teto, a fim de achar uma saída no outro lado</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
